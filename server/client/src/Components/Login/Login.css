@@ -1,0 +1,87 @@
+body {
+  font-family: "Signika", sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.login-form-container {
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  
+  width: 450px;
+  max-width: 400px;
+}
+
+.login-form h2 {
+  text-align: center;
+  color: rgb(13, 109, 183);
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: rgb(13, 109, 183); 
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #899e20; 
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.form-group input:focus {
+  outline: none;
+}
+
+.form-group input:hover {
+  border: 0.5px solid rgb(13, 109, 183); 
+}
+
+.form-group input::placeholder {
+  color: #999; 
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(13, 109, 183);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(13, 109, 183);
+}
+
+p {
+  margin-top: 15px;
+  color: #555;
+}
+
+p a {
+  color: rgb(13, 109, 183);
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
